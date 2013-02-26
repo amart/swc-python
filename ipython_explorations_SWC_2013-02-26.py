@@ -51,12 +51,29 @@ def times(x,y):
 
 
 def squish(func_arg,list_arg):
-     result = list_arg[0]
-     if len(list_arg) > 1:
-         for l in list_arg[1:]:
-             result = func_arg(result,l)
+    if len(list_arg) > 0:
+        result = list_arg[0]
+        if len(list_arg) > 1:
+            for l in list_arg[1:]:
+                result = func_arg(result,l)
+        return(result)
+    else:
+        return(0)
 
-     return(result)
 
+def keep(test,values):
+    result = []
+    for v in values:
+        if test(v):
+            result.append(v)
+    return(result)
+
+
+def positive(x):
+    return(x >= 0)
+
+
+
+keep(positive,[1,-3,5,-7,9])
 
 
