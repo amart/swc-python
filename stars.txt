@@ -1,0 +1,6 @@
+Vega,0
+Sirius,2
+Betelgeuse,0
+Alpha Centauri,15
+Tau Ceti,9
+Polaris,3
