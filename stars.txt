@@ -1,6 +1,12 @@
+# created 2013-02-26
+# Python 2.7.3
 Vega,0
 Sirius,2
+
 Betelgeuse,0
 Alpha Centauri,15
 Tau Ceti,9
 Polaris,3
+
+# these are not actual data
+
