@@ -1,5 +1,7 @@
 #
 
+from code import stuff
+
 def test_empty():
     assert stuff([]) == []
 
